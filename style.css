@@ -1,0 +1,142 @@
+#main_div {
+    
+}
+
+#image {
+    background-image: url(Immagini/download.jpeg);
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#image:hover {
+
+}
+
+#save {
+    background-color: red;
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    left: 30px;
+    left: 276px;
+    top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#image_header {
+    opacity: 0%;
+    height: 70px;
+}
+
+#image_header:hover {
+    opacity: 100%;
+    animation: mover 1s;
+}
+
+#image_footer {
+    opacity: 0%;
+    height: 60px;
+    margin-top: 470px;
+}
+
+#arrow {
+    background-color: #eeeded;
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    border-radius: 30px;
+    top: 545px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#arrowdiv {
+    width: 179px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+#arrowdiv span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#arrowdiv img {
+    width: 20px;
+    padding: 10px;
+}
+
+#upload {
+    background-color: #eeeded;
+    position: absolute;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    top: 545px;
+    left: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#upload img {
+    width: 20px;
+}
+
+#menu {
+    background-color: #eeeded;
+    position: absolute;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    top: 545px;
+    left: 332px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#menu img {
+    width: 20px;
+}
+
+#image_footer:hover {
+    animation: mover2 1s;
+    opacity: 100%;
+}
+
+@keyframes mover {
+    0% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes mover2 {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+}
+
